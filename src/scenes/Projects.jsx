@@ -80,9 +80,9 @@ const Projects = () => {
             technology="Technology: React.Js, Redux"
           />
           <Project
-            title="Internal External"
+            title="Gorman"
             description="Front-end responsive e-commerce website design for apparel brand"
-            technology="Technologies: HTML, CSS, JS"
+            technology="Technologies: HTML, CSS, JS, PHP"
           />
 
           {/* ROW 2 */}
