@@ -97,7 +97,7 @@ const Projects = () => {
             technology="Technologies: MongoDB, Express, React, Node.Js"
           />
           <Project
-            title="Healthy Foods"
+            title="Fit Food"
             description="Front-end responsive landing page for restaurant"
             technology="Technologies: HTML, CSS, JS, TS"
           />
