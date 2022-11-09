@@ -62,7 +62,7 @@ const Landing = ({ setSelectedPage }) => {
             </p>
             <br />
             <p>
-              My mission is to utalize my passion for computer science and
+              My mission is to utilize my passion for computer science and
               machine learning to benefit society at large while serving as an
               example of success that will shape the future of our society.
             </p>

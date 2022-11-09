@@ -38,7 +38,7 @@ const Testimonials = () => {
           }}
         >
           <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
+          <p className="text-center text-xl sm:p-8">
             Caleb is very passionate and has great vision for his work. His
             focus keeps everything moving smoothly, and makes sure that his work
             meets the highest standards." <br />
