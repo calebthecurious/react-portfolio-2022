@@ -24,10 +24,10 @@ const Testimonials = () => {
       </motion.div>
 
       {/* TESTIMONIALS */}
-      <div className="md:flex md:justify-between gap-8">
+      <div className="md:flex md:justify-between md:gap-4 md:">
         <motion.div
           className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-180px] before:-ml-[110px] before:left-1/2 before:content-metody"
+            before:absolute before:top-[-180px] before:-ml-[110px] before:left-1/2 before:content-metody sm:p-8 "
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -38,17 +38,17 @@ const Testimonials = () => {
           }}
         >
           <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl pt-10">
+          <p className="text-center text-xl">
             Caleb is very passionate and has great vision for his work. His
             focus keeps everything moving smoothly, and makes sure that his work
             meets the highest standards." <br />
-            <span className="font-bold">Metody - Tech Lead</span>
+            <span className="font-bold text-sm">Metody - Tech Lead</span>
           </p>
         </motion.div>
 
         <motion.div
           className="mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-180px] before:-ml-[110px] before:left-1/2 before:content-renee"
+            before:absolute before:top-[-180px] before:-ml-[110px] before:left-1/2 before:content-renee sm:p-8"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -61,15 +61,15 @@ const Testimonials = () => {
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
             Caleb is a hard working and an awesome team player. Caleb is a great
-            networker, and certainly can get my full recommendation!"
+            networker, and certainly can get my recommendation!"
             <br />
-            <span className="font-bold">Renee - Shopify Lead</span>
+            <span className="font-bold text-sm">Renee - Shopify Lead</span>
           </p>
         </motion.div>
 
         <motion.div
           className="mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-180px] before:-ml-[110px] before:left-1/2 before:content-cameron"
+            before:absolute before:top-[-180px] before:-ml-[110px] before:left-1/2 before:content-cameron sm:p-8"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -85,7 +85,7 @@ const Testimonials = () => {
             has a lot to offer. I have no doubt that Caleb will make an
             outstanding software engineer."
             <br />
-            <span className="font-bold">Cameron - Professor</span>
+            <span className="font-bold text-sm">Cameron - Professor</span>
           </p>
         </motion.div>
       </div>
