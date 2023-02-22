@@ -10,7 +10,7 @@ const Footer = () => {
             Calebthecurious
           </p>
           <p className="font-playfair text-md text-yellow">
-            ©2022 CTC. All Rights Reserved.
+            ©2023 CTC. All Rights Reserved.
           </p>
         </div>
       </div>

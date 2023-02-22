@@ -55,7 +55,11 @@ const Contact = () => {
           }}
           className="basis-1/2 flex justify-center"
         >
-          <img src="../assets/caleb-contact.jpeg" alt="contact" />
+          <img
+            src="../assets/caleb-contact.jpeg"
+            alt="contact"
+            className="rounded-lg max-w-md"
+          />
         </motion.div>
 
         <motion.div
@@ -76,7 +80,7 @@ const Contact = () => {
             method="POST"
           >
             <input
-              className="w-full bg-blue font-semibold placeholder-black p-3"
+              className="w-full bg-blue font-semibold rounded-lg placeholder-black p-3"
               type="text"
               placeholder="NAME"
               {...register("name", {
@@ -92,7 +96,7 @@ const Contact = () => {
             )}
 
             <input
-              className="w-full bg-blue font-semibold placeholder-black p-3 mt-5"
+              className="w-full bg-blue font-semibold rounded-lg placeholder-black p-3 mt-5"
               type="text"
               placeholder="EMAIL"
               {...register("email", {
@@ -108,7 +112,7 @@ const Contact = () => {
             )}
 
             <textarea
-              className="w-full bg-blue font-semibold placeholder-black p-3 mt-5"
+              className="w-full bg-blue font-semibold rounded-lg placeholder-black p-3 mt-5"
               name="message"
               placeholder="MESSAGE"
               rows="4"
@@ -128,7 +132,7 @@ const Contact = () => {
             )}
 
             <button
-              className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
+              className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500 rounded-full"
               type="submit"
             >
               Send me a message

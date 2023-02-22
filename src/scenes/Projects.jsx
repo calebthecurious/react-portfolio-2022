@@ -47,7 +47,7 @@ const Projects = () => {
           visible: { opacity: 1, y: 0 },
         }}
       >
-        <div>
+        <div className="">
           <p className="font-playfair font-semibold text-4xl">
             <span className="text-red">PRO</span>JECTS
           </p>

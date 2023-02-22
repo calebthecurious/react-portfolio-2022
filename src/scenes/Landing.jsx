@@ -8,7 +8,7 @@ const Landing = ({ setSelectedPage }) => {
   return (
     <section
       id="home"
-      className="md:flex md:justify-between md:items-center gap-16 md:h-full py-40"
+      className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10 "
     >
       {/* IMAGE SECTION */}
       <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
@@ -57,11 +57,15 @@ const Landing = ({ setSelectedPage }) => {
 
           <div className="mt-10 mb-7 text-lg text-center md:text-start py-8">
             <p>
-              Hi there! I'm an inquisitive software developer based in
-              Melbourne, Australia.
+              G'day! I'm a software developer who's passionate about making our
+              lives better, easier, faster with technology. I specialize in
+              translating business needs into powerful tech solutions that help
+              drive growth and create value. With my unique mix of technical and
+              business expertise, I thrive on solving complex challenges and
+              exploring new possibilities.
             </p>
             <br />
-            <p>
+            <p className="font-bold">
               My mission is to utilize my passion for computer science and
               machine learning to benefit society at large while serving as an
               example of success that will shape the future of our society.

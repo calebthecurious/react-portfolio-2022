@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
-    <section id="skills" className="pt-10 pb-24">
+    <section id="skills" className="pt-10 pb-24 md:h-full">
       {/* HEADER AND IMAGE SECTION */}
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         <motion.div
@@ -24,28 +24,32 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7 ">
-            Since beginning my journey as a developer over 3 years ago, I've
-            worked full-time designing and developing websites, worked remotely
-            for agencies, consulted for startups, and collaborated with talented
-            people to create web products for both business and consumer use.
+            With a wide range of skills, specializing in frontend development.
+            I'm proficient in{" "}
+            <span className="font-bold text-blue">
+              HTML, CSS, JavaScript, TypeScript, and React
+            </span>
+            , creating visually stunning, user-friendly web applications with
+            ease.
           </p>
           <p className="mt-10 mb-7 ">
-            I create successful responsive websites that are fast, easy to use,
-            and built with best practices. The main area of my expertise has
-            been in front-end development -{" "}
-            <span className="font-bold text-blue ">
-              HTML, CSS, JS, TS, React, Python, Django
-            </span>{" "}
-            - building small and medium web apps, custom plugins, features, and
-            coding interactive layouts.
+            In addition to my frontend expertise, I'm experienced in backend
+            development with technologies like{" "}
+            <span className="font-bold text-blue">
+              Python, Django, PHP, and Magento.
+            </span>
+            I'm skilled in creating efficient and scalable databases using
+            MySQL, MongoDB, and Firebase.
           </p>
           <p className="mt-10 mb-7 ">
-            I also have full-stack developer experience with popular open-source
-            CMS like (
-            <span className="font-bold text-blue ">
-              WordPress, Magento, Keystone.js
-            </span>{" "}
-            and others )
+            Also armed with skills in DevOps and am familiar with{" "}
+            <span className="font-bold text-blue">
+              Git, Docker, and Kubernetes
+            </span>
+            . I'm a quick learner, strong communicator, and team player, always
+            pushing boundaries to find solutions to complex problems. With my
+            passion for innovation and dedication to quality, I'm excited to
+            tackle new challenges and make a meaningful impact on every project.
           </p>
         </motion.div>
 
@@ -85,17 +89,16 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Enquiring Mind
+                Agile Focused
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            I possess an inquiring mind that simply refuses to conform. A mind
-            full of curiosity that allows me to ask questions and extend my
-            learnings by understanding first principles. If I don't get it the
-            first time, the brute-force learning technique has always helped me
-            learn new things!
+            I'm skilled in using Agile methodologies like Scrum and Kanban to
+            work collaboratively with cross-functional teams. I prioritize
+            tasks, break down complex projects, and maintain clear communication
+            to deliver high-quality software on time and within budget.
           </p>
         </motion.div>
 
@@ -121,10 +124,12 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            I am cool, calm, collected, charming, and confident. I am
-            unapologetic for who I am because I am secure with my decisions and
-            trust in the direction of my life. I pride myself with not acting
-            emotionally when navigating difficult situations.
+            I'm self-possessed, maintaining a calm and level-headed demeanor in
+            the face of challenges. My focus and positive attitude allow me to
+            work efficiently and effectively, delivering high-quality results
+            that exceed expectations. I'm always willing to go the extra mile to
+            ensure success, tackling even the most difficult tasks with
+            confidence.
           </p>
         </motion.div>
         {/* PASSIONATE */}
@@ -143,16 +148,18 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Passion for 'Human-First'
+                Enquiring Mind
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            I believe in creating culture that endeavors to meet our individual
-            needs as people, including who we are both in and out of work. In
-            order to encourage play, creativity, ingenuity and deep thinking
-            that ultimately solves real life problems we face every day.
+            I'm driven by my curiosity for innovation. With my inquiring mind, I
+            thrive in dynamic environments and constantly seek out new
+            challenges to tackle. I'm always eager to learn and understand new
+            technologies, frameworks, and methodologies, allowing me to find
+            creative solutions to complex problems and make a meaningful impact
+            through technology.
           </p>
         </motion.div>
       </div>
