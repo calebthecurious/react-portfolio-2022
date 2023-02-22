@@ -74,11 +74,13 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
+
           <Project
             title="Bug Tracker"
             description="Full-stack project for tracking bugs in development"
             technology="Technology: React.Js, Redux"
           />
+
           <Project
             title="Gorman"
             description="Front-end responsive e-commerce website design for apparel brand"
