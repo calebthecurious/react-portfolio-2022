@@ -17,7 +17,7 @@ const projectVariant = {
 
 const Project = ({ title, description, technology }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
+    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue flex-1 md:flex-none md:mr-3`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
