@@ -17,7 +17,7 @@ const projectVariant = {
 
 const Project = ({ title, description, technology }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue flex-1 md:flex-none md:mr-3`;
+    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue `;
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
@@ -55,7 +55,14 @@ const Projects = () => {
             <LineGradient width="w-2/3" />
           </div>
         </div>
-        <p className="mt-10 mb-10">Here are some things that I've built!</p>
+        <p className="mt-10 mb-10">
+          This is a showcase of my recent web development projects and
+          technologies used, including custom-built websites, e-commerce
+          solutions, and content management systems. Each project represented a
+          unique challenge and opportunity for me to apply my expertise and
+          creativity, while working closely with my colleagues and clients to
+          ensure their vision is realized.
+        </p>
       </motion.div>
 
       {/* PROJECTS */}
@@ -76,44 +83,46 @@ const Projects = () => {
           </div>
 
           <Project
-            title="Bug Tracker"
-            description="Full-stack project for tracking bugs in development"
-            technology="Technology: React.Js, Redux"
+            title="Gorman"
+            description="Maintain and develop Gorman’s Content Management System (CMS)"
+            technology="Technologies: HTML, CSS, JavaScript, PHP, Magento, MySQL"
           />
 
           <Project
-            title="Gorman"
-            description="Front-end responsive e-commerce website design for apparel brand"
-            technology="Technologies: HTML, CSS, JS, PHP"
+            title="Dangerfield"
+            description="Implement design revisions to Dangerfield-owned websites"
+            technology="Technologies: JavaScript, jQuery, Knockout and Require.js"
           />
 
           {/* ROW 2 */}
           <Project
-            title="Uber Eats"
-            description="Uber Eats clone - User side UI & backend with AWS Amplify"
-            technology="Technologies: React Native, AWS Amplify, Redux, Google API"
+            title="Princess Highway"
+            description="Integration of social media platform APIs such as Facebook & Instagram to allow users to share content"
+            technology="Technologies: REST/SOAP APIs"
           />
           <Project
             title="Munity"
-            description="P2P marketplace where neighbours share skills personally"
-            technology="Technologies: MongoDB, Express, React, Node.Js"
+            description="Full-stack web app. Designing user interactions on web pages.
+            Developing back-end website applications.
+            Creating servers and databases for functionality."
+            technology="Technologies: MongoDB, Express, React, Node.Js, AWS Cloud"
           />
           <Project
             title="Fit Food"
             description="Front-end responsive landing page for restaurant"
-            technology="Technologies: HTML, CSS, JS, TS"
+            technology="Technologies: HTML, CSS, JavaScript, TypeScript, .NET, Angular"
           />
 
           {/* ROW 3 */}
           <Project
-            title="Weather APP"
-            description="Weather API to access current & historical weather data"
-            technology="Technologies: Python, Tkinter, OpenWeatherMap API"
-          />
-          <Project
             title="Dashboard Admin"
             description="React Admin Dashboard App With Theming, Tables, Charts, Calendar, Kanban, & 7 different charts"
-            technology="Technologies: React, Tailwindcss, Syncfusion"
+            technology="Technologies: React, Tailwindcss, GraphQL, Syncfusion"
+          />
+          <Project
+            title="Version Control"
+            description="CI/CD tools, including Git, Azure DevOps, and BitBucket"
+            technology="Technologies: Python, Tkinter, OpenWeatherMap API"
           />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
